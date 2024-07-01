@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 30px;
+  margin: 10px;
+  display: inline-block;
+  width: 40%;
+}
+.card div {
+  display: flex;
+  justify-content: space-between;
+}
